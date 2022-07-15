@@ -1,0 +1,50 @@
+Classes:
+    Director
+    Keyboard Service
+    Video Service
+    Actor
+    Point
+
+    Director:
+        Attributes:
+            Keyboard Service
+            Video Service
+        Methods:
+            Start
+            Inputs
+            Updates
+            Outputs
+    
+    Keyboard Service:
+        Attributes:
+            Cell Size
+        Methods:
+            Get Direction
+
+    Video Service:
+        Attributes:
+            Width
+            Height
+        Methods:
+            start_game
+            close_game
+    
+    Actor:
+        Attributes:
+            Position
+            Velocity
+            car
+            
+        Methods:
+            Get Position
+            Get velocity
+            get car
+            set Position
+            set car
+    
+    point:
+        Attributes:
+            score
+        
+        Methods:
+            set score
